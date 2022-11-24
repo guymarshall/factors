@@ -3,17 +3,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-//    static ArrayList<Integer> getFactors(int number) {
-//        ArrayList<Integer> factors = new ArrayList<>();
-//
-//        for (int i = 1; i <= number; i++) {
-//            if (number % i == 0) {
-//                factors.add(i);
-//            }
-//        }
-//
-//        return factors;
-//    }
     public static ArrayList<BigInteger> getFactors(BigInteger number) {
         ArrayList<BigInteger> factors = new ArrayList<>();
 
