@@ -26,7 +26,6 @@ public class Main {
         return factors;
     }
     public static void main(String[] args) {
-        //TODO convert function to BigInteger for larger numbers
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number to check its factors: ");
         BigInteger userInput = scanner.nextBigInteger();
