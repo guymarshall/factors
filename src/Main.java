@@ -7,7 +7,7 @@ public class Main {
         ArrayList<BigInteger> factors = new ArrayList<>();
         BigInteger halfNumber = number.divide(BigInteger.TWO);
 
-        for (BigInteger i = BigInteger.ONE; i.compareTo(halfNumber) <= 0; i = i.add(BigInteger.ONE)) {
+        for (BigInteger i = BigInteger.TWO; i.compareTo(halfNumber) <= 0; i = i.add(BigInteger.ONE)) {
             if (number.mod(i).equals(BigInteger.ZERO)) {
                 factors.add(i);
             }
